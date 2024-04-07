@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nkarner{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nkar{
+    width: 100%;
+    height: 2200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.backColor{
+    width: 100%;
+    height: 2400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.backColor2{
+    width: 100%;
+    height: 3500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.backColor3{
+    width: 100%;
+    height: 5000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(218, 222, 226);
+}
+
+.nkar3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.backImg{
+    width: 100%;
+    height: 800px;
+}
+
+.varung{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lolik{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dzmeruk{
+    display: flex;
+    justify-content: space-around;
+}
+
+.varImg{
+    width: 400px;
+    height: 380px;
+}
+
+.lolImg{
+    width: 400px;
+    height: 380px;
+}
+
+.dzmerukImg{
+    width: 400px;
+    height: 380px;
+}
+
+.tesak{
+    height: 450px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tesak1{
+    height: 450px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lobiImg{
+    height: 380px;
+}
+
+.logoDiv{
+    width: 1000px;
+    height: 300px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.logo{
+    font-size: 35px;
+    text-align: center;
+    height: 60px;
+    width: 1000px;
+    background-color: white;
+    color: black;
+}
+
+.minamo1{
+    height: 600px;
+    width: 400px;
+}
+
+.minamo2{
+    height: 290px;
+    width: 350px;
+}
+
+.nkar4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.minamiDiv{
+    width: 100%;
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.minamis{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.minamiImg{
+    height: 550px;
+    width: 350px;
+}
+
+.sermDiv{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sermDiv2{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sermer{
+    height: 550px;
+    width: 350px;
+}
+
+.nkar3{
+    background-color: brown;
+}
+
+.caxik{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+}
+
+.phoneDiv{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone{
+    width: 15px;
+    height: 15px;
+}
+
+.viber{
+    width: 50px;
+    height: 50px;
+}
+
+.watsapp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:1250px){
+    .varImg{
+        width: 300px;
+        height: 280px;
+    }
+    
+    .lolImg{
+        width: 300px;
+        height: 280px;
+    }
+    
+    .dzmerukImg{
+        width: 300px;
+        height: 280px;
+    }
+
+    .tesak{
+        height: 350px;
+    }
+
+    .lobiImg{
+        height: 300px;
+        width: auto;
+    }
+
+    .nkar{
+        height: 1200px;
+    }
+    
+    .backColor{
+        height: 2000px;
+    }
+
+    .nkar3{
+        height: 2000px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .backColor2{
+        height: 4200px;
+    }
+
+    .minamo2{
+        width: 400px;
+        height: 340px;
+    }
+
+    .nkar4{
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .minamis{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height:auto;
+        gap: 30px;
+    }
+
+    .minamiDiv{
+        height: auto;
+        gap: 30px;
+    }
+
+    .backColor2{
+        height: 7550px;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .backImg{
+        height: 600px;
+    }
+    
+    .sermDiv{
+        flex-direction: column;
+        height: 1700px;
+        align-items: center;
+    }
+
+    .backColor3{
+        height: 13600px;
+        justify-content: space-evenly;
+    }
+
+    .logoDiv{
+        width: 700px;
+        height: 250px;
+    }
+
+    .logo{
+        font-size: 25px;
+        width: 700px;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .lolik{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .varung{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .dzmeruk{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .nkar{
+        gap: 30px;
+        height: 4600px;
+    }
+
+    .lobiImg{
+        width: 600px;
+    }
+
+    .backColor{
+        height: 5000px;
+    }
+
+    .backColor2{
+        height: 8300px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .backImg{
+        height: 500px;
+    }
+
+    .logoDiv{
+        width: 600px;
+    }
+
+    .logo{
+        font-size: 35px;
+        margin-bottom: 30px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .lobiImg{
+        width: 450px;
+        height: 250px;
+    }
+
+    .logoDiv{
+        width: 450px;
+        height: 200px;
+    }
+
+    .logo{
+        font-size: 24px;
+        height: 55px;
+        margin-bottom: 27px;
+    }
+
+    .tesak2{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width:500px){
+
+    .backColor{
+        height: 4900px;
+    }
+
+    .lobiImg{
+        width: 290px;
+        height: 200px;
+    }
+
+    .tesak2{
+        height: 250px;
+    }
+
+    .logoDiv{
+        width: 290px;
+        height: 150px;
+    }
+
+    .logo{
+        font-size: 17px;
+    }
+
+    .minamo1{
+        width: 290px;
+        height: 400px;
+    }
+
+    .minamo2{
+        width: 290px;
+        height: 290px;
+    }
+
+    .nkar4{
+        height: 600px;
+    }
+
+    .nkar3{
+        height: 1450px;
+    }
+
+    .minamiImg{
+        width: 290px;
+        height: 450px;
+    }
+
+    .backColor2{
+        height: 6700px;
+    }
+
+    .sermer{
+        width: 290px;
+        height: 450px;
+    }
+
+    .sermDiv{
+        height: 1410px;
+    }
+
+    .backColor3{
+        height: 11000px;
+    }
+
+    .varImg{
+        width: 290px;
+    }
+
+    .lolImg{
+        width: 290px;
+    }
+
+    .dzmerukImg{
+        width: 290px;
+        height: 270px;
+    }
+
+    .backImg{
+        height: 340px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .backImg{
+        height: 290px;
+    }
+}
